@@ -1,0 +1,10 @@
+# ingnoring node modules during push
+/node_modules
+
+# misc
+.delete_profile.png
+.get_login.png
+.get_root_route.png
+.patch_signUp.pngt
+.post_signUp.png
+.put_profile.png
