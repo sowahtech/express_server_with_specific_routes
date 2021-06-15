@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\PC\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add nodemon --dev
+
+PATH: 
+  C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python38\Scripts\;C:\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;;C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\PC\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.18.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\PC\Desktop\BACKENDGEN15\SPECIFIC ROUTE HANDLING\package.json: Unexpected string in JSON at position 191
+      at JSON.parse (<anonymous>)
+      at C:\Users\PC\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\PC\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\PC\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "SPECIFIC_REQUEST_HANDLING",
+    "version": "1.0.0",
+    "description": "handling different request methods",
+    "main": "index.js",
+    "author": "justice sowah",
+    "license": "MIT"
+  }
+  
+  "scripts":{
+    "start": "nodemon ."
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
