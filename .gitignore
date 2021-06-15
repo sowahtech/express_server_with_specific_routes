@@ -1,5 +1,5 @@
 # ingnoring node modules during push
-/node_modules
+node_modules/
 
 # misc
 .delete_profile.png
